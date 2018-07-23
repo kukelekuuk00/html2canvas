@@ -1,10 +1,10 @@
 {
   "title": "html2canvas-visible",
-  "name": "html2canvas-visible",
+  "name": "html2canvas",
   "description": "Screenshots with JavaScript",
   "main": "dist/npm/index.js",
-  "module": "dist/html2canvas-visible.js",
-  "browser": "dist/html2canvas-visible.js",
+  "module": "dist/html2canvas.js",
+  "browser": "dist/html2canvas.js",
   "version": "1.0.0-alpha.12",
   "author": {
     "name": "Niklas von Hertzen",
