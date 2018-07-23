@@ -12,9 +12,9 @@ export type Visibility = $Values<typeof VISIBILITY>;
 export const parseVisibility = (visibility: string): Visibility => {
     switch (visibility) {
         case 'hidden':
-            return VISIBILITY.HIDDEN;
+            return VISIBILITY.VISIBLE;
         case 'collapse':
-            return VISIBILITY.COLLAPSE;
+            return VISIBILITY.VISIBLE;
         case 'visible':
         default:
             return VISIBILITY.VISIBLE;
